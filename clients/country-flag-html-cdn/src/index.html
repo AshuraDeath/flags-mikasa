@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Country Flag for “AC”</title>
+
+  <!-- your flag-cdn script -->
+  <script src="../dist/flag-cdn.min.js"></script>
+</head>
+
+<body>
+  <h1>Flag for AC</h1>
+  <!-- just the img; give it an ID so getCountryFlag can find it -->
+  <img id="flag-ac" alt="Flag of AC" width="48" height="36" />
+  <img src alt="Flag of AC" width="48" height="36" />
+
+  <script>
+    // once the page is ready, directly request the “AC” flag
+    document.addEventListener('DOMContentLoaded', () => {
+      getCountryFlag('AC', 'flag-ac');
+    });
+  </script>
+</body>
+</html>

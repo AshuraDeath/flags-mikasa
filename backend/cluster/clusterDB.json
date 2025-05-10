@@ -1,0 +1,152 @@
+{
+    "lastUpdated": "ISO 8601 timestamp",
+    "country": {
+        "name": {
+            "official": "string",
+            "common": "string"
+        },
+        "nativeName": "object",
+        "isoCodes": {
+            "alpha2": "string",
+            "alpha3": "string",
+            "numeric": "string"
+        },
+        "alternativeNames": [
+            "string"
+        ],
+        "demonyms": "object",
+        "motto": "string",
+        "nationalAnthem": "string"
+    },
+    "geography": {
+        "continent": "string",
+        "region": "string",
+        "subregion": "string",
+        "coordinates": {
+            "latitude": "number",
+            "longitude": "number"
+        },
+        "landArea": {
+            "sqKm": "number",
+            "sqMi": "number"
+        },
+        "elevation": {
+            "highest": "object",
+            "lowest": "object"
+        },
+        "borders": {
+            "countries": [
+                "string"
+            ],
+            "totalBorderLength": "number"
+        },
+        "naturalLandmarks": [
+            "string"
+        ],
+        "climate": "string",
+        "naturalDisasters": [
+            "string"
+        ]
+    },
+    "demographics": {
+        "population": "number",
+        "populationDensity": {
+            "sqKm": "number",
+            "sqMi": "number"
+        },
+        "growthRate": "number",
+        "medianAge": "number",
+        "ageDistribution": "object",
+        "languages": "object",
+        "ethnicGroups": "object",
+        "religions": "object",
+        "literacyRate": {
+            "male": "number",
+            "female": "number"
+        },
+        "lifeExpectancy": {
+            "male": "number",
+            "female": "number"
+        },
+        "birthRate": "number",
+        "deathRate": "number",
+        "migrationTrends": "object"
+    },
+    "economy": {
+        "currency": {
+            "name": "string",
+            "code": "string",
+            "symbol": "string"
+        },
+        "exchangeRate": "number",
+        "gdp": {
+            "nominal": "number",
+            "ppp": "number"
+        },
+        "gdpPerCapita": {
+            "nominal": "number",
+            "ppp": "number"
+        },
+        "gdpGrowthRate": "number",
+        "inflationRate": "number",
+        "industries": [
+            "string"
+        ],
+        "exports": [
+            "string"
+        ],
+        "unemploymentRate": "number",
+        "povertyRate": "number",
+        "laborForceParticipation": "number",
+        "publicDebtToGdp": "number",
+        "tradeBalance": "number",
+        "economicFreedomIndex": "number",
+        "internetPenetration": "number"
+    },
+    "government": {
+        "type": "string",
+        "headOfState": "string",
+        "administrativeDivisions": "object",
+        "legislature": "string",
+        "votingAge": "number",
+        "electionSystem": "string",
+        "politicalParties": [
+            "string"
+        ],
+        "rulingParty": "string",
+        "nationalHolidays": [
+            "string"
+        ],
+        "internationalMemberships": [
+            "string"
+        ]
+    },
+    "infrastructure": {
+        "capitalCity": "string",
+        "majorCities": "object",
+        "roadNetwork": "number",
+        "railwayNetwork": "number",
+        "airports": {
+            "international": "number",
+            "domestic": "number"
+        },
+        "seaports": [
+            "string"
+        ],
+        "electricityAccess": "number",
+        "powerSources": "object",
+        "healthcare": "string",
+        "education": "string",
+        "techIndex": "number"
+    },
+    "flag": {
+        "url": "string",
+        "formats": [
+            "SVG",
+            "PNG",
+            "WebP"
+        ],
+        "historicalFlags": "boolean",
+        "cached": "boolean"
+    }
+}

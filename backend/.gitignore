@@ -1,0 +1,76 @@
+# Node.js dependencies (both frontend and backend)
+node_modules/
+
+# Build output (React & backend build files)
+build/
+dist/
+
+# Dependency directories (for Yarn PnP)
+.pnp/
+.pnp.js
+
+# IDE files (IntelliJ IDEA, Visual Studio Code, etc.)
+.idea/
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# dotenv environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# npm package lock
+package-lock.json
+yarn.lock
+
+# Next.js build output (if using Next.js)
+.next/
+
+# React Native (if used)
+.expo/
+.expo-shared/
+
+# TypeScript build files
+*.tsbuildinfo
+
+# TypeScript declaration files
+*.d.ts
+
+# Build directories for frontend and backend
+/frontend/build/
+/backend/build/
+
+# Miscellaneous files
+/.history/
+*.tgz
+
+# Coverage files (from testing tools)
+coverage/
+
+# Server-specific files (if using Express)
+/server/node_modules/
+
+# AWS and other cloud-related files
+.aws-sdk/
+
+# Docker and container-related files (if using Docker)
+.docker/
+docker-compose.override.yml
+wrangler.toml
+pp.md
+ppcww.md
+ppcww2.md
+.wrangler
+.wrangler.toml

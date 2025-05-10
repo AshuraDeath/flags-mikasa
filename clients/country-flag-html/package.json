@@ -1,0 +1,47 @@
+{
+  "name": "country-flag-html",
+  "version": "1.0.0",
+  "description": "Generate HTML img elements for country flags using a Cloudflare Worker CDN.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "flags",
+    "country-flags",
+    "html",
+    "img",
+    "cdn"
+  ],
+  "author": "Ranjit Suryawanshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ranjit95Ashura/country-flag-html/issues"
+  },
+  "homepage": "https://github.com/ranjit95Ashura/country-flag-html#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ranjit95Ashura/country-flag-html.git"
+  },
+  "files": [
+    "dist",
+    "dist/index.d.ts"
+  ],
+  "engines": {
+    "node": ">=14.17"
+  },
+  "peerDependencies": {
+    "axios": "^1.8.4"
+  },
+  "peerDependenciesMeta": {
+    "axios": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

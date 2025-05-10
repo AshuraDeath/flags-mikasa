@@ -1,0 +1,16 @@
+{
+  "name": "country-flag-html-cdn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "build": "mkdir -p dist && uglifyjs src/flag-cdn.js -o dist/flag-cdn.min.js --compress --mangle"
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "uglify-js": "^3.19.3"
+  }
+}
