@@ -1,0 +1,486 @@
+{
+  "lastUpdated": "ISO 8601 timestamp",
+  "country": {
+    "name": {
+      "official": "string",
+      "common": "string"
+    },
+    "nativeName": {
+      "languageCode": {
+        "official": "string",
+        "common": "string"
+      }
+    },
+    "isoCodes": {
+      "alpha2": "string",
+      "alpha3": "string",
+      "numeric": "string"
+    },
+    "alternativeNames": ["string"],
+    "demonyms": {
+      "male": "string",
+      "female": "string",
+      "plural": "string"
+    },
+    "motto": "string",
+    "nationalAnthem": {
+      "title": "string",
+      "composer": "string",
+      "lyrics": "string",
+      "audioUrl": "string"
+    },
+    "flagDescription": "string"
+  },
+  "geography": {
+    "continent": "string",
+    "region": "string",
+    "subregion": "string",
+    "coordinates": {
+      "latitude": "number",
+      "longitude": "number"
+    },
+    "landArea": {
+      "sqKm": "number",
+      "sqMi": "number"
+    },
+    "waterArea": {
+      "sqKm": "number",
+      "sqMi": "number"
+    },
+    "elevation": {
+      "highest": {
+        "name": "string",
+        "heightMeters": "number",
+        "location": {
+          "latitude": "number",
+          "longitude": "number"
+        }
+      },
+      "lowest": {
+        "name": "string",
+        "depthMeters": "number",
+        "location": {
+          "latitude": "number",
+          "longitude": "number"
+        }
+      }
+    },
+    "borders": {
+      "countries": ["string"],
+      "totalBorderLengthKm": "number",
+      "maritimeBorders": ["string"]
+    },
+    "naturalLandmarks": ["string"],
+    "climate": {
+      "type": "string",
+      "averageTemperatureC": {
+        "annual": "number",
+        "summer": "number",
+        "winter": "number"
+      },
+      "averageRainfallMm": {
+        "annual": "number",
+        "seasonal": "object"
+      }
+    },
+    "naturalDisasters": [
+      {
+        "type": "string",
+        "frequencyPerYear": "number",
+        "lastOccurrence": "ISO 8601 timestamp"
+      }
+    ],
+    "timezones": [
+      {
+        "name": "string",
+        "utcOffset": "string"
+      }
+    ]
+  },
+  "demographics": {
+    "population": "number",
+    "populationDensity": {
+      "sqKm": "number",
+      "sqMi": "number"
+    },
+    "growthRate": "number",
+    "medianAge": "number",
+    "ageDistribution": {
+      "0-14": "number",
+      "15-24": "number",
+      "25-54": "number",
+      "55-64": "number",
+      "65+": "number"
+    },
+    "languages": {
+      "official": ["string"],
+      "regional": ["string"],
+      "widelySpoken": ["string"]
+    },
+    "ethnicGroups": {
+      "groupName": "percentage"
+    },
+    "religions": {
+      "religionName": "percentage"
+    },
+    "literacyRate": {
+      "male": "number",
+      "female": "number",
+      "overall": "number"
+    },
+    "lifeExpectancy": {
+      "male": "number",
+      "female": "number",
+      "overall": "number"
+    },
+    "birthRate": "number",
+    "deathRate": "number",
+    "migrationTrends": {
+      "netMigration": "number",
+      "immigration": "number",
+      "emigration": "number"
+    },
+    "urbanization": {
+      "urbanPopulationPercent": "number",
+      "ruralPopulationPercent": "number"
+    },
+    "householdSizeAverage": "number"
+  },
+  "economy": {
+    "currency": {
+      "name": "string",
+      "code": "string",
+      "symbol": "string",
+      "exchangeRateToUSD": "number"
+    },
+    "gdp": {
+      "nominal": "number",
+      "ppp": "number",
+      "sectors": {
+        "agriculturePercent": "number",
+        "industryPercent": "number",
+        "servicesPercent": "number"
+      }
+    },
+    "gdpPerCapita": {
+      "nominal": "number",
+      "ppp": "number"
+    },
+    "gdpGrowthRate": "number",
+    "inflationRate": "number",
+    "industries": ["string"],
+    "exports": [
+      {
+        "product": "string",
+        "valueUSD": "number",
+        "percentOfTotalExports": "number"
+      }
+    ],
+    "imports": [
+      {
+        "product": "string",
+        "valueUSD": "number",
+        "percentOfTotalImports": "number"
+      }
+    ],
+    "unemploymentRate": "number",
+    "povertyRate": "number",
+    "laborForceParticipation": "number",
+    "publicDebtToGdp": "number",
+    "tradeBalance": "number",
+    "economicFreedomIndex": "number",
+    "internetPenetration": "number",
+    "financialInclusion": {
+      "bankAccountsPercent": "number",
+      "mobileMoneyUsersPercent": "number"
+    }
+  },
+  "government": {
+    "type": "string",
+    "headOfState": {
+      "name": "string",
+      "title": "string",
+      "since": "ISO 8601 date"
+    },
+    "administrativeDivisions": {
+      "level1": ["string"],
+      "level2": ["string"]
+    },
+    "legislature": "string",
+    "votingAge": "number",
+    "electionSystem": "string",
+    "politicalParties": ["string"],
+    "rulingParty": "string",
+    "nationalHolidays": [
+      {
+        "name": "string",
+        "date": "MM-DD"
+      }
+    ],
+    "internationalMemberships": ["string"],
+    "corruptionIndex": {
+      "score": "number",
+      "rank": "number"
+    }
+  },
+  "infrastructure": {
+    "capitalCity": {
+      "name": "string",
+      "population": "number",
+      "coordinates": {
+        "latitude": "number",
+        "longitude": "number"
+      }
+    },
+    "majorCities": [
+      {
+        "name": "string",
+        "population": "number",
+        "coordinates": {
+          "latitude": "number",
+          "longitude": "number"
+        }
+      }
+    ],
+    "roadNetworkKm": "number",
+    "railwayNetworkKm": "number",
+    "airports": {
+      "international": "number",
+      "domestic": "number",
+      "totalPassengersAnnually": "number"
+    },
+    "seaports": [
+      {
+        "name": "string",
+        "capacityTons": "number",
+        "location": {
+          "latitude": "number",
+          "longitude": "number"
+        }
+      }
+    ],
+    "electricityAccessPercent": "number",
+    "powerSources": {
+      "coalPercent": "number",
+      "hydroPercent": "number",
+      "renewablePercent": "number",
+      "nuclearPercent": "number",
+      "otherPercent": "number"
+    },
+    "healthcare": {
+      "systemType": "string",
+      "hospitalBedsPer1000": "number",
+      "physiciansPer1000": "number",
+      "lifeExpectancyImpact": "string"
+    },
+    "education": {
+      "literacyRatePercent": "number",
+      "meanYearsOfSchooling": "number",
+      "schoolEnrollmentPrimary": "number",
+      "schoolEnrollmentSecondary": "number",
+      "educationExpenditurePercentGDP": "number"
+    },
+    "techIndex": "number",
+    "internetSpeedMbps": "number"
+  },
+  "flag": {
+    "url": "string",
+    "formats": ["SVG", "PNG", "WebP"],
+    "historicalFlags": "boolean",
+    "cached": "boolean",
+    "description": "string"
+  },
+
+  "ml_metadata": {
+    "featureVectors": {
+      "demographics": ["number"],
+      "economy": ["number"],
+      "geography": ["number"],
+      "infrastructure": ["number"],
+      "government": ["number"]
+    },
+    "classificationLabels": {
+      "economicDevelopmentLevel": "string",
+      "riskLevel": "string",
+      "politicalStability": "string",
+      "healthRiskLevel": "string"
+    },
+    "clusteringGroup": "string",
+    "environment": {
+      "airQualityIndex": {
+        "annualAverage": "number",
+        "pm2_5": "number",
+        "pm10": "number",
+        "ozone": "number",
+        "co": "number",
+        "no2": "number",
+        "so2": "number"
+      },
+      "waterQualityIndex": "number",
+      "protectedAreasPercent": "number",
+      "deforestationRate": "number",
+      "biodiversityIndex": "number",
+      "carbonEmissionsMetricTonsPerCapita": "number",
+      "renewableEnergyUsagePercent": "number"
+    },
+
+    "socialIndicators": {
+      "giniCoefficient": "number",
+      "genderEqualityIndex": "number",
+      "povertyHeadcountRatioPercent": "number",
+      "socialMobilityIndex": "number",
+      "humanDevelopmentIndex": "number",
+      "crimeRatePer100000": "number",
+      "prisonPopulationRate": "number",
+      "internetAccessPercent": "number"
+    },
+
+    "energy": {
+      "totalEnergyConsumptionTWh": "number",
+      "energyImportsPercent": "number",
+      "energyExportsPercent": "number",
+      "electricityProductionTWh": "number",
+      "renewableEnergyProductionPercent": "number",
+      "fossilFuelProductionPercent": "number",
+      "nuclearEnergyProductionPercent": "number"
+    },
+
+    "securityRisk": {
+      "terrorismIndex": "number",
+      "cybersecurityIndex": "number",
+      "militaryExpenditurePercentGDP": "number",
+      "borderDisputes": ["string"],
+      "naturalDisasterRiskScore": "number",
+      "pandemicPreparednessIndex": "number"
+    },
+
+    "educationInnovation": {
+      "researchAndDevelopmentExpenditurePercentGDP": "number",
+      "numberOfResearchersPerMillion": "number",
+      "patentsFiledAnnually": "number",
+      "universityRankings": [
+        {
+          "name": "string",
+          "globalRank": "number",
+          "nationalRank": "number"
+        }
+      ],
+      "edtechAdoptionIndex": "number",
+      "digitalLiteracyRatePercent": "number"
+    },
+
+    "culture": {
+      "officialLanguages": ["string"],
+      "religiousComposition": {
+        "religionName": "percentage"
+      },
+      "heritageSitesUNESCO": ["string"],
+      "traditionalFestivals": ["string"],
+      "cuisineSpecialties": ["string"],
+      "literatureInfluence": "string",
+      "artsAndMusicPopularity": "string"
+    },
+
+    "timeSeriesData": {
+      "populationHistory": [
+        {
+          "year": "number",
+          "population": "number"
+        }
+      ],
+      "gdpHistory": [
+        {
+          "year": "number",
+          "gdpNominal": "number",
+          "gdpPPP": "number"
+        }
+      ],
+      "inflationHistory": [
+        {
+          "year": "number",
+          "inflationRate": "number"
+        }
+      ],
+      "unemploymentHistory": [
+        {
+          "year": "number",
+          "rate": "number"
+        }
+      ],
+      "energyConsumptionHistory": [
+        {
+          "year": "number",
+          "totalConsumptionTWh": "number"
+        }
+      ]
+    },
+
+    "anomalyDetection": {
+      "populationSpike": {
+        "detected": "boolean",
+        "magnitude": "number",
+        "year": "number",
+        "cause": "string"
+      },
+      "economicShock": {
+        "detected": "boolean",
+        "severity": "string",
+        "year": "number",
+        "details": "string"
+      },
+      "naturalDisasterEvent": [
+        {
+          "type": "string",
+          "date": "ISO 8601 timestamp",
+          "severity": "string",
+          "impactDescription": "string"
+        }
+      ]
+    },
+
+    "forecast": {
+      "populationProjection": [
+        {
+          "year": "number",
+          "population": "number",
+          "confidenceInterval": {
+            "lower": "number",
+            "upper": "number"
+          }
+        }
+      ],
+      "gdpProjection": [
+        {
+          "year": "number",
+          "gdpNominal": "number",
+          "confidenceInterval": {
+            "lower": "number",
+            "upper": "number"
+          }
+        }
+      ],
+      "climateChangeImpact": {
+        "temperatureIncreaseC": "number",
+        "seaLevelRiseCm": "number",
+        "expectedExtremeEventsIncreasePercent": "number"
+      }
+    },
+
+    "audit": {
+      "dataSource": {
+        "name": "string",
+        "url": "string",
+        "lastAccessed": "ISO 8601 timestamp",
+        "dataLicense": "string"
+      },
+      "version": "string",
+      "dataQualityScore": "number",
+      "validationChecks": {
+        "schemaValidation": "boolean",
+        "rangeChecksPassed": "boolean",
+        "consistencyChecksPassed": "boolean",
+        "missingValuesPercent": "number"
+      }
+    }
+  }
+}
