@@ -69,12 +69,10 @@ coverage/
 .docker/
 docker-compose.override.yml
 wrangler.toml
-pp.md
-ppcww.md
-ppcww2.md
 .wrangler
 .wrangler.toml
 flagsUrls.json
 flagsMap.json
 package-lock.json
 serverCloudwareWorker.ts
+.cluster

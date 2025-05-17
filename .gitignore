@@ -7,3 +7,4 @@ flagsUrls.json
 flagsMap.json
 package-lock.json
 node_modules
+./server/serverCloudwareWorker.ts
