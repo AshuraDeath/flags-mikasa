@@ -74,3 +74,6 @@ ppcww.md
 ppcww2.md
 .wrangler
 .wrangler.toml
+flagsUrls.json
+flagsMap.json
+package-lock.json
